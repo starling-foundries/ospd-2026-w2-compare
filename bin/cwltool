@@ -1,0 +1,4 @@
+#!/bin/sh
+# cwltool and schema-salad pinned to the versions current when the September run records were written
+# (cwltool from scripts/sources.yaml; schema-salad 8.10.20261106 rejects `doc` on the eoap/schemas enums)
+exec uvx --quiet --from cwltool==3.1.20260108082145 --with schema-salad==8.10.20260825112551 cwltool "$@"

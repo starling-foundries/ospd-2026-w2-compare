@@ -1,0 +1,59 @@
+{
+ "request": {
+  "bbox": [
+   95.15,
+   15.9,
+   95.35,
+   16.1
+  ],
+  "cloud_cover_max": 20,
+  "days_back": 90
+ },
+ "runs": {
+  "w2": {
+   "title": "W2, 2025 package (mangrove-cwl:v0.0.1-rc7)",
+   "scene": "S2C_46PGC_20261115_0_L2A",
+   "acquired": "2026-11-15T04:23:58.576000",
+   "step_start_utc": "2026-11-22T02:59:45+00:00",
+   "window": [
+    "2026-08-24T02:59:45.000000",
+    "2026-11-22T02:59:45.000000"
+   ],
+   "window_root": "ba9ce60bb52cb2770a5255ef7a2cb831ac2e0f6abe8412d634fc4cb181f37f13",
+   "in_window": true,
+   "ground_root": "c2c56c74dbdcbcae2c8e62afe5ada7b28741afd8a680b5abd8f171433e9da442",
+   "ground_ha": 47349.87,
+   "result_root": "ba408e8a7edf9cdef508d4994f242bda7263fc34008d0c7017bc62ee51bc6341",
+   "result_zones_ha": 10.2,
+   "mask_pixels": 841,
+   "reported_ha": 8.41
+  },
+  "steps": {
+   "title": "W2b, 6-step release v0.0.2-rc3",
+   "scene": "S2C_46PGC_20261115_0_L2A",
+   "acquired": "2026-11-15T04:23:58.576000",
+   "step_start_utc": "2026-11-22T03:01:19+00:00",
+   "window": [
+    "2026-08-24T03:01:19.000000",
+    "2026-11-22T03:01:19.000000"
+   ],
+   "window_root": "fe063531ddcf4364be7f97c3d299c54282b5b5cac109a5ad4c4a622a738a37bc",
+   "in_window": true,
+   "ground_root": "c2c56c74dbdcbcae2c8e62afe5ada7b28741afd8a680b5abd8f171433e9da442",
+   "ground_ha": 47349.87,
+   "result_root": "11754816d620b9cff668b3ad28087c36a65726357c09b9fe22eba6b4413d9372",
+   "result_zones_ha": 9.84,
+   "mask_pixels": 834,
+   "reported_ha": 8.34
+  }
+ },
+ "fixed_code": {
+  "result_root": "895feec521413d68bc71ddc0dbdf79b1a836aa33a72b4975f239a55d9bf7bdab",
+  "result_zones_ha": 17.01,
+  "mask_pixels": 1395
+ },
+ "aoi_root": "c2c56c74dbdcbcae2c8e62afe5ada7b28741afd8a680b5abd8f171433e9da442",
+ "windows_allen": "overlaps",
+ "pixel_m2_at_16N": 118.4,
+ "differing_zones": 312
+}

@@ -1,0 +1,3 @@
+kindgrove/mangrove/provenance.json and kindgrove-steps/select-scene/provenance.json are copied unchanged
+from https://github.com/GeoLabs/bblocks-process-profiles at commit 79c90fb8 (2026-11-19),
+_sources/<workflow>/<step>/examples/provenance.json. Licensed Apache-2.0 by their authors.

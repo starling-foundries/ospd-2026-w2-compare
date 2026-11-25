@@ -1,0 +1,201 @@
+[
+ {
+  "id": "urn:example:run:kindgrove:mangrove",
+  "provType": "prov:Activity",
+  "activityType": "https://w3id.org/geolabs/ospd/process-profiles/process-type/kindgrove/mangrove",
+  "startedAtTime": "2026-09-23T08:01:12Z",
+  "used": [
+   "urn:example:entity:mangrove:in:west",
+   "urn:example:entity:mangrove:in:south",
+   "urn:example:entity:mangrove:in:east",
+   "urn:example:entity:mangrove:in:north",
+   "urn:example:entity:mangrove:in:cloud_cover_max",
+   "urn:example:entity:mangrove:in:days_back",
+   "urn:example:entity:mangrove:in:output_dir"
+  ],
+  "wasAssociatedWith": [
+   "urn:example:engine:cwltool-3.1.20260108082145",
+   "urn:example:image:ghcr.io/geolabs/kindgrove/mangrove-cwl:v0.0.1-rc7"
+  ],
+  "qualifiedAssociation": [
+   {
+    "agent": "urn:example:engine:cwltool-3.1.20260108082145",
+    "hadPlan": "https://ospd.example.org/ogc-api/processes/mangrove_cli/package"
+   }
+  ],
+  "endedAtTime": "2026-09-23T08:03:16Z"
+ },
+ {
+  "id": "urn:example:entity:mangrove:in:west",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/mangrove_cli#inputs/west",
+  "value": 95.15
+ },
+ {
+  "id": "urn:example:entity:mangrove:in:south",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/mangrove_cli#inputs/south",
+  "value": 15.9
+ },
+ {
+  "id": "urn:example:entity:mangrove:in:east",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/mangrove_cli#inputs/east",
+  "value": 95.35
+ },
+ {
+  "id": "urn:example:entity:mangrove:in:north",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/mangrove_cli#inputs/north",
+  "value": 16.1
+ },
+ {
+  "id": "urn:example:entity:mangrove:in:cloud_cover_max",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/mangrove_cli#inputs/cloud_cover_max",
+  "value": 20
+ },
+ {
+  "id": "urn:example:entity:mangrove:in:days_back",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/mangrove_cli#inputs/days_back",
+  "value": 90
+ },
+ {
+  "id": "urn:example:entity:mangrove:in:output_dir",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/mangrove_cli#inputs/output_dir",
+  "value": "outputs"
+ },
+ {
+  "id": "urn:example:entity:mangrove:out:result",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/mangrove_cli#outputs/result",
+  "wasGeneratedBy": "urn:example:run:kindgrove:mangrove",
+  "links": [
+   {
+    "href": "https://ospd.example.org/ogc-api/jobs/kindgrove-mangrove-0001/results/catalog.json",
+    "rel": "item",
+    "type": "application/json"
+   }
+  ],
+  "wasAttributedTo": "urn:example:engine:cwltool-3.1.20260108082145"
+ },
+ {
+  "id": "urn:example:engine:cwltool-3.1.20260108082145",
+  "provType": "prov:SoftwareAgent",
+  "name": "cwltool 3.1.20260108082145"
+ },
+ {
+  "id": "urn:example:image:ghcr.io/geolabs/kindgrove/mangrove-cwl:v0.0.1-rc7",
+  "provType": "prov:SoftwareAgent",
+  "name": "container image ghcr.io/geolabs/kindgrove/mangrove-cwl:v0.0.1-rc7"
+ },
+ {
+  "id": "https://ospd.example.org/ogc-api/processes/mangrove_cli/package",
+  "provType": "prov:Plan"
+ },
+ {
+  "id": "arcp://uuid,ec5cc9e1-3e83-4551-a759-4745c5b5040b/workflow/packed.cwl#main/step_1",
+  "provType": "prov:Plan",
+  "specializationOf": "https://ospd.example.org/ogc-api/processes/mangrove_cli/package"
+ },
+ {
+  "id": "urn:example:entity:mangrove:aoi:zones",
+  "provType": "prov:Entity",
+  "entityType": "urn:proposed:eoap-cct:ZoneSet",
+  "value": {
+   "dggrs": "https://www.opengis.net/def/dggrs/OGC/1.0/rHEALPix",
+   "zone_level": 12,
+   "root": "c2c56c74dbdcbcae2c8e62afe5ada7b28741afd8a680b5abd8f171433e9da442"
+  },
+  "wasDerivedFrom": [
+   "urn:example:entity:mangrove:in:west",
+   "urn:example:entity:mangrove:in:south",
+   "urn:example:entity:mangrove:in:east",
+   "urn:example:entity:mangrove:in:north"
+  ],
+  "links": [
+   {
+    "href": "evidence/aoi.zones.json",
+    "rel": "describedby",
+    "type": "application/json"
+   }
+  ]
+ },
+ {
+  "id": "urn:example:entity:mangrove:window",
+  "provType": "prov:Entity",
+  "entityType": "urn:proposed:time-window",
+  "value": {
+   "start": "2026-08-24T02:59:45.000000Z",
+   "end": "2026-11-22T02:59:45.000000Z",
+   "root": "ba9ce60bb52cb2770a5255ef7a2cb831ac2e0f6abe8412d634fc4cb181f37f13"
+  },
+  "wasDerivedFrom": [
+   "urn:example:entity:mangrove:in:days_back"
+  ]
+ },
+ {
+  "id": "urn:example:entity:mangrove:scene:ground",
+  "provType": "prov:Entity",
+  "entityType": "urn:proposed:eoap-cct:ZoneSet",
+  "value": {
+   "dggrs": "https://www.opengis.net/def/dggrs/OGC/1.0/rHEALPix",
+   "zone_level": 12,
+   "root": "c2c56c74dbdcbcae2c8e62afe5ada7b28741afd8a680b5abd8f171433e9da442"
+  },
+  "wasDerivedFrom": [
+   "urn:example:entity:mangrove:aoi:zones"
+  ],
+  "links": [
+   {
+    "href": "evidence/w2.scene-ground.zones.json",
+    "rel": "describedby",
+    "type": "application/json"
+   },
+   {
+    "href": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_46PGC_20261115_0_L2A",
+    "rel": "via",
+    "type": "application/geo+json"
+   }
+  ]
+ },
+ {
+  "id": "urn:example:entity:mangrove:scene:acquired",
+  "provType": "prov:Entity",
+  "entityType": "urn:proposed:instant-in-window",
+  "value": {
+   "instant": "2026-11-15T04:23:58.576000Z",
+   "window": "ba9ce60bb52cb2770a5255ef7a2cb831ac2e0f6abe8412d634fc4cb181f37f13",
+   "verified": true
+  },
+  "wasDerivedFrom": [
+   "urn:example:entity:mangrove:window"
+  ],
+  "links": [
+   {
+    "href": "evidence/w2.window-proof.json",
+    "rel": "describedby",
+    "type": "application/json"
+   }
+  ]
+ },
+ {
+  "id": "urn:example:entity:mangrove:result:zones",
+  "provType": "prov:Entity",
+  "entityType": "urn:proposed:eoap-cct:ZoneSet",
+  "value": {
+   "dggrs": "https://www.opengis.net/def/dggrs/OGC/1.0/rHEALPix",
+   "zone_level": 12,
+   "root": "ba408e8a7edf9cdef508d4994f242bda7263fc34008d0c7017bc62ee51bc6341"
+  },
+  "links": [
+   {
+    "href": "evidence/w2.mask.zones.json",
+    "rel": "describedby",
+    "type": "application/json"
+   }
+  ]
+ }
+]

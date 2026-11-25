@@ -1,0 +1,320 @@
+{
+ "A": 2,
+ "B": 1,
+ "D": 61,
+ "hash": "sha256",
+ "opening": {
+  "entries": [
+   {
+    "entries": [
+     "8df1e9c8b6b4d20d26506e58c77133b2ec159dd547cbfbb3ef5a072f6b4aa852",
+     {
+      "entries": [
+       {
+        "entries": [
+         {
+          "entries": [
+           {
+            "entries": [
+             {
+              "entries": [
+               {
+                "entries": [
+                 {
+                  "entries": [
+                   {
+                    "entries": [
+                     {
+                      "entries": [
+                       {
+                        "entries": [
+                         "3d939b5a3e03a6ed57a59f4acca13935365c1185a225a9b8137191418cb93a4a",
+                         {
+                          "entries": [
+                           "f9e3a0ccd63939b4d747100bc1e0910d9b690019b38d5226e6cd1ff24632fd7c",
+                           {
+                            "entries": [
+                             {
+                              "entries": [
+                               {
+                                "entries": [
+                                 "80a228dbadbd5e19df0a27dcf9f71f546a64e38dd6458ef62e5de332748f3114",
+                                 {
+                                  "entries": [
+                                   "1b881a296836ba3fb0f18ac251f0d269b5652db9cee41c761b79d462a2f2bb67",
+                                   {
+                                    "entries": [
+                                     {
+                                      "entries": [
+                                       {
+                                        "entries": [
+                                         {
+                                          "entries": [
+                                           {
+                                            "entries": [
+                                             {
+                                              "entries": [
+                                               {
+                                                "entries": [
+                                                 "4ea6b4b36a0e0e38a0265a651d72f1f13c5e279fffbde688ad3c673600e316bc",
+                                                 {
+                                                  "entries": [
+                                                   {
+                                                    "entries": [
+                                                     {
+                                                      "entries": [
+                                                       "01fcb6f37bb44aabc5f245a5b2c8887be2bf3fc46b4d62ab7ec41778a6ae8e0c",
+                                                       {
+                                                        "entries": [
+                                                         {
+                                                          "entries": [
+                                                           {
+                                                            "entries": [
+                                                             "bf9ef98da92e53bc93069af39f55cd1330d721ef1294e7ccfbf1418232fb98f7",
+                                                             {
+                                                              "entries": [
+                                                               {
+                                                                "entries": [
+                                                                 {
+                                                                  "entries": [
+                                                                   {
+                                                                    "entries": [
+                                                                     {
+                                                                      "entries": [
+                                                                       {
+                                                                        "entries": [
+                                                                         "bf477fc806a93e9a7a123c86a58357320b62a945386119ce14eb800bb7994e03",
+                                                                         {
+                                                                          "entries": [
+                                                                           "4ee2be8027af0527d3639f70e0bcccb2a552b03b8b43b89ac8c4543fd1f867b5",
+                                                                           {
+                                                                            "entries": [
+                                                                             "635dd0f383b4aa494f8b57a18302a261053230f534afe2c8c58ecbc059c710ef",
+                                                                             {
+                                                                              "entries": [
+                                                                               "596b8dc57c86dd44cdaebce237b93a99be7cefd1e16463da5365fca88692b17b",
+                                                                               {
+                                                                                "entries": [
+                                                                                 {
+                                                                                  "entries": [
+                                                                                   "b21e254550cd314bfa0c115c5856ab778d0ea83a9a518c6565622ee78a332d86",
+                                                                                   {
+                                                                                    "entries": [
+                                                                                     "1079619658e057659862489ba457f89659538505f69734222bd3c690fb117ad6",
+                                                                                     {
+                                                                                      "entries": [
+                                                                                       {
+                                                                                        "entries": [
+                                                                                         "3a17e58220f839278d4b04bc36270bccc8060a3c27f4b398cf35019d286b35df",
+                                                                                         {
+                                                                                          "entries": [
+                                                                                           "f091c50e9468f359e84c3e1f610f8c7e8efdbec3451583e83f344c7382c28e27",
+                                                                                           {
+                                                                                            "entries": [
+                                                                                             {
+                                                                                              "entries": [
+                                                                                               "de61719f5f0689f871246a10b947cc03507a9d4184e3e622298f689c6cc8f4ae",
+                                                                                               {
+                                                                                                "entries": [
+                                                                                                 "630f33a638009ba8b8d36980e80850f791dbfe3659699d9f26d08cbbb4516d2f",
+                                                                                                 {
+                                                                                                  "entries": [
+                                                                                                   "e2e2212017e9cd402415785721adeb1be6f219b30758ff7376bad5c8c310a564",
+                                                                                                   {
+                                                                                                    "entries": [
+                                                                                                     "55a5aadce98ed4d75e5b54903bed8e7d6c9ed08d2c43a81541cdb29475707faa",
+                                                                                                     {
+                                                                                                      "entries": [
+                                                                                                       "255b370f75b8f6980fc3e41bb12c9b3ae51deb29b63e84bfa89dd1aa4e569c58",
+                                                                                                       {
+                                                                                                        "entries": [
+                                                                                                         "77592ac363054fda96a310d1b2ec5666168483f337c381c089db611d69cd1179",
+                                                                                                         {
+                                                                                                          "entries": [
+                                                                                                           {
+                                                                                                            "entries": [
+                                                                                                             "d21d0ddc2c8e2a7b65cabe7569870f36fad71a8e19c2ca49e8de198b4b117803",
+                                                                                                             {
+                                                                                                              "entries": [
+                                                                                                               "95401d2f6312d44d147c7804edcb697cd6408222f54b0677ce3b65e4762aafa2",
+                                                                                                               {
+                                                                                                                "entries": [
+                                                                                                                 {
+                                                                                                                  "entries": [
+                                                                                                                   {
+                                                                                                                    "entries": [
+                                                                                                                     {
+                                                                                                                      "entries": [
+                                                                                                                       {
+                                                                                                                        "entries": [
+                                                                                                                         {
+                                                                                                                          "entries": [
+                                                                                                                           {
+                                                                                                                            "entries": [
+                                                                                                                             {
+                                                                                                                              "claim": "full"
+                                                                                                                             },
+                                                                                                                             "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a"
+                                                                                                                            ]
+                                                                                                                           },
+                                                                                                                           "52db9ef97986e7382ef78b8eae2dacdbb2ce823ed1396a0fb2f7f120a2b40a63"
+                                                                                                                          ]
+                                                                                                                         },
+                                                                                                                         "a480f83f599191fdddc405c856d5256f968e7ad541212d278f53416392bde5bf"
+                                                                                                                        ]
+                                                                                                                       },
+                                                                                                                       "2274cc0b7156cef6d02df91885941d7f08c7feac097c0ea8c749580f1a9a2845"
+                                                                                                                      ]
+                                                                                                                     },
+                                                                                                                     "36c614d3fcffdbdfe4baf66656fb17c8373bd42eb8aca046ec5b50ae8395f0cf"
+                                                                                                                    ]
+                                                                                                                   },
+                                                                                                                   "90b3ab21a9f9e4d9a952ec812e65e997fff5f1f39ebcbf85d04bf191d9da30b5"
+                                                                                                                  ]
+                                                                                                                 },
+                                                                                                                 "7ccebc8f78646b5eece300cb6cfc0dce0fb94f4ddb1f7c0edc4d9eb30851aa0a"
+                                                                                                                ]
+                                                                                                               }
+                                                                                                              ]
+                                                                                                             }
+                                                                                                            ]
+                                                                                                           },
+                                                                                                           "f3ee920d89599e5b37c3f7361666664b3856d93130891050b210fc98011ebdec"
+                                                                                                          ]
+                                                                                                         }
+                                                                                                        ]
+                                                                                                       }
+                                                                                                      ]
+                                                                                                     }
+                                                                                                    ]
+                                                                                                   }
+                                                                                                  ]
+                                                                                                 }
+                                                                                                ]
+                                                                                               }
+                                                                                              ]
+                                                                                             },
+                                                                                             "1035a858d09bb40f583f65a01422ce15bdf25c8fd30f536d4790d7f42f9707b0"
+                                                                                            ]
+                                                                                           }
+                                                                                          ]
+                                                                                         }
+                                                                                        ]
+                                                                                       },
+                                                                                       "7f55633c883d55a225d5a61a70badf37b54f839343a61be09fc5cbb80907d7a0"
+                                                                                      ]
+                                                                                     }
+                                                                                    ]
+                                                                                   }
+                                                                                  ]
+                                                                                 },
+                                                                                 "95123bcad191fd0d2e225f4c118de786c323e7c819d5630bcab56fe69fb34f7b"
+                                                                                ]
+                                                                               }
+                                                                              ]
+                                                                             }
+                                                                            ]
+                                                                           }
+                                                                          ]
+                                                                         }
+                                                                        ]
+                                                                       },
+                                                                       "726d5f7cb4bc2bc445cac55a3f8a3c6525f9ab16ff0f353655461684cedfb57e"
+                                                                      ]
+                                                                     },
+                                                                     "f5b27ab645fb8256e79f0223ccbd95626b73fd66db34f8e67f5035560bcb67cf"
+                                                                    ]
+                                                                   },
+                                                                   "7646216a0b97ec1d30efc6dda7b4091fb56946a73a27b9e4b93673063766923c"
+                                                                  ]
+                                                                 },
+                                                                 "f14a09dd5957a09ea1c849223a5a6cc56467552e320f9aecc48cc352cc87c6ef"
+                                                                ]
+                                                               },
+                                                               "6daaf2eba17c4d9c45e2f998d774607218ff7f50d6edb064000326038f4a1fd6"
+                                                              ]
+                                                             }
+                                                            ]
+                                                           },
+                                                           "2f07a53e2e3aee1c6fa6022c68b4c2e65cab05b14ee85b90f8f9dd08854b10cb"
+                                                          ]
+                                                         },
+                                                         "1a78b734ba06e17365084967b704420bfdf2d1a4936d79bc7dd6b92e8378c104"
+                                                        ]
+                                                       }
+                                                      ]
+                                                     },
+                                                     "c7e13119de5067973d466530939181b8b1575717a02a24856654e085435bf7b2"
+                                                    ]
+                                                   },
+                                                   "5ba019358305b03f288759f983637a672f8c01f4783c19b79fa15be257fcd05e"
+                                                  ]
+                                                 }
+                                                ]
+                                               },
+                                               "67c132ca05542b7ba8d5bab88ff0d61684de0f980da80322db99b017eeccd163"
+                                              ]
+                                             },
+                                             "d0178e6bf28cf11efadde9284746666225d60220b9f4cfa0343c9b1eed5d53b6"
+                                            ]
+                                           },
+                                           "ec6ccfbb611604820cb9566d08c5731635830e94704da98ad9d00bfd3027188c"
+                                          ]
+                                         },
+                                         "0765efc8d9e4fc681b201f4604c4b341949f472662db8129472798228a5586cd"
+                                        ]
+                                       },
+                                       "239f2297ac613637b84807dd5732f96ff19823fcab3bb5108d17b08e82a2a2f1"
+                                      ]
+                                     },
+                                     "1eeb0bec587eb73d2f1f814ec561fa7824091a8ca7667d3e735383741b0dd308"
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               },
+                               "b7d810d9c39d6f50a04c4f86d91be770d6c2805d0a8c2f7ce3d7d3f391d0393c"
+                              ]
+                             },
+                             "262a044064cc022e9d8fc9bbda0b0973fc0810cede2394f3c5806d14b1cc1b1e"
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       },
+                       "7a1074aebbf57e208a2406a5a798590f3949e91bbd732ec65645c0d0a526beeb"
+                      ]
+                     },
+                     "293f3addde236a3d99b430f855ed663071888c37b8700dd22cdae94a3a786f8a"
+                    ]
+                   },
+                   "e349b126c4eaac6ef4649c6dba4dda9800e7de7e4d979af9f89e3d3a6b0a99ce"
+                  ]
+                 },
+                 "d6ff99ff0d0affa48ff0fa9c115ad9c1d978a50d183b61d6f7acc6c2b09b972b"
+                ]
+               },
+               "cd13c6fede4c009491741215edd2aa3f4a8560fed66faf23fd742d51ff8c2913"
+              ]
+             },
+             "9778a442970dcd46d9f63f20cbec81480b966f780b1e08a053c511ab6df1e877"
+            ]
+           },
+           "94d3fcfa2e61ce935ee083acca6835f0842263a45adcd7e67b46e0d7a8e8de09"
+          ]
+         },
+         "7c22043c88dfe9095760030bc66fe4291f9a256e8e1452a8a883cf3e13df7767"
+        ]
+       },
+       "3af7515683b961b1920cbde749fe720732d41dd05aaabf5ea733fafc848a8b17"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "root": "fe063531ddcf4364be7f97c3d299c54282b5b5cac109a5ad4c4a622a738a37bc",
+ "v": 1
+}

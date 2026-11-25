@@ -1,0 +1,194 @@
+[
+ {
+  "id": "urn:example:run:kindgrove-steps:select-scene",
+  "provType": "prov:Activity",
+  "activityType": "https://w3id.org/geolabs/ospd/process-profiles/process-type/kindgrove-steps/select-scene",
+  "startedAtTime": "2026-09-24T10:57:48Z",
+  "used": [
+   "urn:example:entity:select-scene:in:west",
+   "urn:example:entity:select-scene:in:south",
+   "urn:example:entity:select-scene:in:east",
+   "urn:example:entity:select-scene:in:north",
+   "urn:example:entity:select-scene:in:cloud_cover_max",
+   "urn:example:entity:select-scene:in:days_back"
+  ],
+  "wasAssociatedWith": [
+   "urn:example:engine:cwltool-3.1.20260108082145",
+   "urn:example:image:ghcr.io/geolabs/kindgrove/select-scene:v0.0.2-rc2"
+  ],
+  "qualifiedAssociation": [
+   {
+    "agent": "urn:example:engine:cwltool-3.1.20260108082145",
+    "hadPlan": "https://ospd.example.org/ogc-api/processes/select_scene/package"
+   }
+  ],
+  "endedAtTime": "2026-09-24T10:58:01Z"
+ },
+ {
+  "id": "urn:example:entity:select-scene:in:west",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/select_scene#inputs/west",
+  "value": 95.15
+ },
+ {
+  "id": "urn:example:entity:select-scene:in:south",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/select_scene#inputs/south",
+  "value": 15.9
+ },
+ {
+  "id": "urn:example:entity:select-scene:in:east",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/select_scene#inputs/east",
+  "value": 95.35
+ },
+ {
+  "id": "urn:example:entity:select-scene:in:north",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/select_scene#inputs/north",
+  "value": 16.1
+ },
+ {
+  "id": "urn:example:entity:select-scene:in:cloud_cover_max",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/select_scene#inputs/cloud_cover_max",
+  "value": 20
+ },
+ {
+  "id": "urn:example:entity:select-scene:in:days_back",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/select_scene#inputs/days_back",
+  "value": 90
+ },
+ {
+  "id": "urn:example:entity:select-scene:out:stac_item",
+  "provType": "prov:Entity",
+  "entityType": "https://ospd.example.org/ogc-api/processes/select_scene#outputs/stac_item",
+  "wasGeneratedBy": "urn:example:run:kindgrove-steps:select-scene",
+  "links": [
+   {
+    "href": "https://ospd.example.org/ogc-api/jobs/kindgrove-steps-select-scene-0001/results/scene_item.json",
+    "rel": "item",
+    "type": "application/json"
+   }
+  ],
+  "wasAttributedTo": "urn:example:engine:cwltool-3.1.20260108082145"
+ },
+ {
+  "id": "urn:example:engine:cwltool-3.1.20260108082145",
+  "provType": "prov:SoftwareAgent",
+  "name": "cwltool 3.1.20260108082145"
+ },
+ {
+  "id": "urn:example:image:ghcr.io/geolabs/kindgrove/select-scene:v0.0.2-rc2",
+  "provType": "prov:SoftwareAgent",
+  "name": "container image ghcr.io/geolabs/kindgrove/select-scene:v0.0.2-rc2"
+ },
+ {
+  "id": "https://ospd.example.org/ogc-api/processes/select_scene/package",
+  "provType": "prov:Plan"
+ },
+ {
+  "id": "arcp://uuid,e96466cd-dd6c-469a-af95-6bbc439a3156/workflow/packed.cwl#main/select_scene",
+  "provType": "prov:Plan",
+  "specializationOf": "https://ospd.example.org/ogc-api/processes/select_scene/package"
+ },
+ {
+  "id": "urn:example:entity:select-scene:aoi:zones",
+  "provType": "prov:Entity",
+  "entityType": "urn:proposed:eoap-cct:ZoneSet",
+  "value": {
+   "dggrs": "https://www.opengis.net/def/dggrs/OGC/1.0/rHEALPix",
+   "zone_level": 12,
+   "root": "c2c56c74dbdcbcae2c8e62afe5ada7b28741afd8a680b5abd8f171433e9da442"
+  },
+  "wasDerivedFrom": [
+   "urn:example:entity:select-scene:in:west",
+   "urn:example:entity:select-scene:in:south",
+   "urn:example:entity:select-scene:in:east",
+   "urn:example:entity:select-scene:in:north"
+  ],
+  "links": [
+   {
+    "href": "evidence/aoi.zones.json",
+    "rel": "describedby",
+    "type": "application/json"
+   }
+  ]
+ },
+ {
+  "id": "urn:example:entity:select-scene:window",
+  "provType": "prov:Entity",
+  "entityType": "urn:proposed:time-window",
+  "value": {
+   "start": "2026-08-24T03:01:19.000000Z",
+   "end": "2026-11-22T03:01:19.000000Z",
+   "root": "fe063531ddcf4364be7f97c3d299c54282b5b5cac109a5ad4c4a622a738a37bc"
+  },
+  "wasDerivedFrom": [
+   "urn:example:entity:select-scene:in:days_back"
+  ]
+ },
+ {
+  "id": "urn:example:entity:select-scene:scene:ground",
+  "provType": "prov:Entity",
+  "entityType": "urn:proposed:eoap-cct:ZoneSet",
+  "value": {
+   "dggrs": "https://www.opengis.net/def/dggrs/OGC/1.0/rHEALPix",
+   "zone_level": 12,
+   "root": "c2c56c74dbdcbcae2c8e62afe5ada7b28741afd8a680b5abd8f171433e9da442"
+  },
+  "wasDerivedFrom": [
+   "urn:example:entity:select-scene:aoi:zones"
+  ],
+  "links": [
+   {
+    "href": "evidence/steps.scene-ground.zones.json",
+    "rel": "describedby",
+    "type": "application/json"
+   },
+   {
+    "href": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_46PGC_20261115_0_L2A",
+    "rel": "via",
+    "type": "application/geo+json"
+   }
+  ]
+ },
+ {
+  "id": "urn:example:entity:select-scene:scene:acquired",
+  "provType": "prov:Entity",
+  "entityType": "urn:proposed:instant-in-window",
+  "value": {
+   "instant": "2026-11-15T04:23:58.576000Z",
+   "window": "fe063531ddcf4364be7f97c3d299c54282b5b5cac109a5ad4c4a622a738a37bc",
+   "verified": true
+  },
+  "wasDerivedFrom": [
+   "urn:example:entity:select-scene:window"
+  ],
+  "links": [
+   {
+    "href": "evidence/steps.window-proof.json",
+    "rel": "describedby",
+    "type": "application/json"
+   }
+  ]
+ },
+ {
+  "id": "urn:example:entity:select-scene:result:zones",
+  "provType": "prov:Entity",
+  "entityType": "urn:proposed:eoap-cct:ZoneSet",
+  "value": {
+   "dggrs": "https://www.opengis.net/def/dggrs/OGC/1.0/rHEALPix",
+   "zone_level": 12,
+   "root": "11754816d620b9cff668b3ad28087c36a65726357c09b9fe22eba6b4413d9372"
+  },
+  "links": [
+   {
+    "href": "evidence/steps.mask.zones.json",
+    "rel": "describedby",
+    "type": "application/json"
+   }
+  ]
+ }
+]

@@ -1,0 +1,24 @@
+Same request to two implementations: bbox [95.15, 15.9, 95.35, 16.1], cloud_cover_max 20, days_back 90
+  W2, 2025 package (mangrove-cwl:v0.0.1-rc7): scene S2C_46PGC_20261115_0_L2A, reported 8.41 ha
+  W2b, 6-step release v0.0.2-rc3: scene S2C_46PGC_20261115_0_L2A, reported 8.34 ha
+
+1. Same ground? yes
+   w2    scene ground c2c56c74dbdcbcae…  47,350 ha  (whole request: True)
+   steps scene ground c2c56c74dbdcbcae…  47,350 ha  (whole request: True)
+2. Same time? acquisition identical; windows not identical
+   w2    window 2026-08-24T02:59:45.000000/2026-11-22T02:59:45.000000  ba9ce60bb52cb277…  scene 2026-11-15T04:23:58.576000 inside: True (proof 5235 B)
+   steps window 2026-08-24T03:01:19.000000/2026-11-22T03:01:19.000000  fe063531ddcf4364…  scene 2026-11-15T04:23:58.576000 inside: True (proof 5235 B)
+   the two windows: Allen 'overlaps', 2 min apart, because days_back is counted from datetime.now()
+3. Same computation? no
+   w2    mask ba408e8a7edf9cde…  zones    10.20 ha  pixels×100 m²     8.41 ha  reported    8.41  grid 0.0001°
+   steps mask 11754816d620b9cf…  zones     9.84 ha  pixels×100 m²     8.34 ha  reported    8.34  grid 0.0001°
+   fixed mask 895feec521413d68…  zones    17.01 ha  pixels×100 m²    13.95 ha  reported       -  grid 0.0001°
+   they differ on 312 zones (4.88 ha only in w2, 4.51 ha only in steps), 281 subtrees
+   both count a 0.0001° pixel as 100 m²; here it is 118.4 m². The fixed code finds 17.01 ha on the same scene (1.67× the w2 zones).
+
+Answered from the two PROV records alone (results/prov/*.fingerprinted.json):
+  same ground?       True   (c2c56c74dbdc… vs c2c56c74dbdc…)
+  same acquisition?  True   (2026-11-15T04:23:58.576000Z vs 2026-11-15T04:23:58.576000Z), each proven inside its window: True
+  same result?       False   (ba408e8a7edf… vs 11754816d620…)
+
+written: results
